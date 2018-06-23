@@ -92,6 +92,7 @@
     <Content Include="migrations\script.py.mako" />
     <Content Include="myWeb\static\css\style.css" />
     <Content Include="myWeb\static\img\bghg.jpg" />
+    <Content Include="myWeb\static\img\bgpic.jpg" />
     <Content Include="myWeb\static\img\favicon.ico" />
     <Content Include="myWeb\static\img\intro-bg.jpg" />
     <Content Include="myWeb\templates\auth\login.html" />
