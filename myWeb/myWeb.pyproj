@@ -83,8 +83,13 @@
     <Folder Include="myWeb\templates\" />
     <Folder Include="instance\" />
     <Folder Include="doc\" />
+    <Folder Include="myWeb\templates\admin\departments\" />
+    <Folder Include="myWeb\templates\admin\employees\" />
+    <Folder Include="myWeb\templates\admin\roles\" />
     <Folder Include="myWeb\templates\home\" />
     <Folder Include="myWeb\templates\auth\" />
+    <Folder Include="myWeb\templates\admin\" />
+    <Folder Include="C:\Users\aitss\source\repos\myWeb\myWeb\myWeb\templates\errors\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="migrations\alembic.ini" />
@@ -95,9 +100,18 @@
     <Content Include="myWeb\static\img\bgpic.jpg" />
     <Content Include="myWeb\static\img\favicon.ico" />
     <Content Include="myWeb\static\img\intro-bg.jpg" />
+    <Content Include="myWeb\templates\admin\departments\department.html" />
+    <Content Include="myWeb\templates\admin\departments\departments.html" />
+    <Content Include="myWeb\templates\admin\employees\employee.html" />
+    <Content Include="myWeb\templates\admin\employees\employees.html" />
+    <Content Include="myWeb\templates\admin\roles\role.html" />
+    <Content Include="myWeb\templates\admin\roles\roles.html" />
     <Content Include="myWeb\templates\auth\login.html" />
     <Content Include="myWeb\templates\auth\register.html" />
     <Content Include="myWeb\templates\base.html" />
+    <Content Include="myWeb\templates\errors\403.html" />
+    <Content Include="myWeb\templates\errors\404.html" />
+    <Content Include="myWeb\templates\errors\500.html" />
     <Content Include="myWeb\templates\home\admin_dashboard.html" />
     <Content Include="myWeb\templates\home\dashboard.html" />
     <Content Include="myWeb\templates\home\index.html" />

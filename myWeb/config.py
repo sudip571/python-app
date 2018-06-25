@@ -14,16 +14,19 @@ class DevelopmentConfig(BaseConfig):
     TESTING = True
     # setting this to True helps us with debugging by allowing SQLAlchemy to log errors
     SQLALCHEMY_ECHO = True
+    ENV = 'dev'
 
 class ProductionConfig(BaseConfig):
     """
     Production configuration
     """
     DEBUG=False
+    ENV = 'prod'
 
 app_config = {
 
     'development': DevelopmentConfig,
-    'production':ProductionConfig
+    'production':ProductionConfig,
+    'default':DevelopmentConfig
     }
 
