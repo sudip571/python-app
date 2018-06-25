@@ -69,7 +69,7 @@ def edit_department(id):
     """
     Edit a department
     """
-
+    
     check_admin()
 
     add_department= False

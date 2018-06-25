@@ -21,6 +21,7 @@ class Employee(UserMixin,db.Model):
     department_id = db.Column(db.Integer, db.ForeignKey('departments.id'))
     role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))
     is_admin = db.Column(db.Boolean, default=False)
+    
 
 
     @property
